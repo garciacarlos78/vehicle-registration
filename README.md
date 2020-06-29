@@ -1,4 +1,4 @@
-# vehicle-registration
+# vehicles-registry
 Simple JavaScript app to save, delete and show a vehicles list using localStorage
 
 - App executed in local lite-server (http://localhost:3000)
