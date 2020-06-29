@@ -12,3 +12,7 @@ Simple JavaScript app to save, delete and show a vehicles list using localStorag
 
 # Some screenshots
 
+<img src="screenshots/adding-vehicle.png" alt="adding vehicle" width="400"/><img src="screenshots/vehicle-just-added.png" alt="vehicle just added" width="400"/>
+<img src="screenshots/vehicle-just-deleted.png" alt="vehicle just deleted" width="400"/>
+<img src="screenshots/failed-vehicle-addition.png" alt="failed vehicle addition" width="400"/>
+
