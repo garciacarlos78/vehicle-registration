@@ -10,6 +10,8 @@ Simple JavaScript app to save, delete and show a vehicles list using localStorag
 - Each vehicle in the list can be deleted via button in the row
 - Applied Sketchy Bootswatch style
 
+Execute: run `vehicles-registry/npm run dev` (must have *nodejs* installed)
+
 # Some screenshots
 
 <img src="screenshots/adding-vehicle.png" alt="adding vehicle" width="400"/><img src="screenshots/vehicle-just-added.png" alt="vehicle just added" width="400"/>
