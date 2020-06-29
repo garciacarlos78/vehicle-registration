@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <title>Vehicles Registry</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center"><span class="text-primary">Vehicles</span> Registry</h1>
+
+        <form id="vehicle-form">
+            <div class="form-group">
+                <label for="brand">Brand</label>
+                <input type="text" id="brand" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="model">Model</label>
+                <input type="text" id="model" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="number-plate">Number plate</label>
+                <input type="text" id="number-plate" class="form-control">
+            </div>
+            <input type="submit" value="Add vehicle" class="btn btn-primary">
+        </form>
+
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Number plate</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="vehicles-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
